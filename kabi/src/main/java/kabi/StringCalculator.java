@@ -10,7 +10,7 @@ public class StringCalculator {
 		
 		ValidationFailed=isNumberLengthGreaterThanTwo(numbersArray);
 		if(ValidationFailed)
-			throw new RuntimeException("Up to 2 numbers separated by comma (,) are allowed");
+			throw new RuntimeException("Up to 2 numbers separated by com (,) are allowed");
 		
 		ValidationFailed= isNumberEmpty(numbersArray);
 		if(ValidationFailed)
@@ -19,7 +19,7 @@ public class StringCalculator {
 		for (String number : numbersArray) {
 			sum+= Integer.parseInt(number);
 		}
-		System.out.println("Sum of numbers is:"+sum);
+		System.out.println("Sum of numbrs is:"+sum);
 		
 		
 	}
