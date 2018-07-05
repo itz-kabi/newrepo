@@ -10,7 +10,7 @@ public class StringCalculator {
 		
 		ValidationFailed=isNumberLengthGreaterThanTwo(numbersArray);
 		if(ValidationFailed)
-			throw new RuntimeException("Up to 2 numbers separated by com (,) are allowed");
+			throw new RuntimeException("Up to 2 numbe separated by com (,) are allowed");
 		
 		ValidationFailed= isNumberEmpty(numbersArray);
 		if(ValidationFailed)
